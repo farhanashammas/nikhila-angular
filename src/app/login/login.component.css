@@ -1,0 +1,24 @@
+.img {
+	
+    background-image: url("src\assets\imgg.jpg");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+a{
+    font-weight: bolder;
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    margin: 10%;
+}
+ul{
+    margin-left: 10%;
+}
+.container {
+	position: relative;
+	z-index: 1;
+}
