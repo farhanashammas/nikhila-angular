@@ -37,9 +37,7 @@
             </tr>
           </thead>
           <tbody *ngIf = "complaints && complaints.length"> 
-            <h6>comp</h6>
             <tr *ngFor = "let i of complaints">
-              <td>complaint</td>
               <td>{{i.complaints}}</td>
               <td>{{i.name}}</td>
               <td>{{i.phoneNumber}}</td>
